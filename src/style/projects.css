@@ -1,0 +1,122 @@
+.projects {
+    margin-top: 100px;
+    height: 100vh;
+}
+.projects__container {
+    width: 100%;
+    background: rgb(250, 250, 250);
+    border-bottom: 2px solid rgb(238, 238, 238);
+    border-top: 2px solid rgb(238, 238, 238);
+    height: 200px;
+}
+
+.projects__title{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.4em;
+    line-height: 150px;
+}
+
+.projects__filter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.projects__filter__group {
+    display: flex;
+}
+
+.projects__filter__item {
+    margin-right: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+
+.filter__active {
+    border: 2px solid teal;
+    font-weight: 600;
+    color: teal;
+}
+
+.projects__cards__group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.projects__card {
+    width: 30%;
+    background: rgb(250, 250, 250);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects__card__img {
+    width: 100%;
+    background: rgb(250, 250, 250);
+    border-radius: 5px;
+    min-height: 220px;
+}
+
+.projects__card__text {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects__card__title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.projects__card__description {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.projects__card__link {
+    font-size: 1em;
+    font-weight: 400;
+    color: teal;
+    text-decoration: none;
+}
+
+.lear__more {
+    text-decoration: none;
+    float: right;
+    color: teal;
+}
+
+.projects__filter__count {
+    font-size: 1em;
+    font-weight: 200;
+    opacity: .5;
+}   
+
+.github {
+    color: teal;
+    text-decoration: none;
+}
+
+.form__button {
+    font-weight: 600;
+    cursor: pointer;
+}

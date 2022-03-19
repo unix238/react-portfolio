@@ -1,0 +1,225 @@
+.resume__top {
+    margin-top: 100px;
+    background: rgb(250, 250, 250);
+    border-bottom: 2px solid rgb(238, 238, 238);
+    border-top: 2px solid rgb(238, 238, 238);
+    width: 100%;
+    height: 200px;
+}
+
+.resume__left {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.4em;
+    line-height: 150px;
+}
+
+.resume__right {
+    font-weight: 200;
+    opacity: .5;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.resume__education {
+    width: 50%;
+    margin: 0 15px;
+}
+.card__inner{
+    border-left: 1px solid rgb(238, 238, 238);
+}
+
+.resume__items{
+    display: flex;
+    justify-content: space-between;
+}
+.resume__title {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 20px;
+    border-bottom: 2px solid teal;
+}
+
+.resume__center__group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.education__card {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    margin-top: 10px;
+    padding: 0 10px;
+    padding-bottom: 20px;
+}
+
+.education__date__and__center {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -25px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.education__center {
+    opacity: .4;
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 15px;
+}
+
+.education__date {
+    border-radius: 15px;
+    border: 2px solid teal;
+    width: fit-content;
+    padding: 0 5px;
+    font-size: 14px;
+    transition: all 0.1s ease-in-out;
+}
+
+.education__about {
+    padding-left: 15px;
+}
+
+.education__degree{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.education__info {
+    font-weight: 200;
+    opacity: .8;
+}
+
+.skills__group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.skills__skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.skill__text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.skill__progress {
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.skill__back {
+    width: 100%;
+    height: 16px;
+    border-radius: 10px;
+    /* background: rgb(238, 238, 238); */
+    margin-top: 10px;
+    border: 3px solid rgb(230, 230, 230);
+}
+
+.skill__active{
+    background: teal;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.skills__groups {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.skills {
+    margin-bottom: 140px;
+}
+
+.education__date:hover{
+    background: teal;
+    color: #fff;
+}
+
+
+/* adaptive */
+@media screen and (max-width: 768px) {
+    .resume__left {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .resume__right {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .resume__education {
+        width: 100%;
+        margin: 0;
+    }
+    .resume__items {
+        flex-direction: column;
+    }
+    .resume__title {
+        width: 100%;
+        margin-bottom: 20px;
+        border-bottom: 2px solid teal;
+    }
+    .resume__center__group {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .education__card {
+        border-bottom: 1px solid rgb(238, 238, 238);
+        margin-top: 10px;
+        padding: 0 10px;
+        padding-bottom: 20px;
+    }
+    .education__date__and__center {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: -25px;
+        margin-bottom: 15px;
+        background: #fff;
+    }
+    .education__center {
+        opacity: .4;
+        font-size: 14px;
+        font-weight: 200;
+        margin-left: 15px;
+    }
+    .education__date {
+        border-radius: 15px;
+        border: 2px solid teal;
+        width: fit-content;
+        padding: 0 5px;
+        font-size: 14px;
+        transition: all 0.1s ease-in-out;
+    }
+    .education__about {
+        padding-left: 15px;
+    }
+    .education__degree{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .education__info {
+        font-weight: 200;
+        opacity: .8;
+    }
+}
