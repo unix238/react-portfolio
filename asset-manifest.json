@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.1a3ab6fb.css",
+    "main.js": "/react-portfolio/static/js/main.b19dff9c.js",
+    "static/media/cv.pdf": "/react-portfolio/static/media/cv.6586d0f729411f7e7f8d.pdf",
+    "static/media/type.png": "/react-portfolio/static/media/type.e510b29e72379cc10f3c.png",
+    "static/media/todo-app.webp": "/react-portfolio/static/media/todo-app.4dfd79f048611231c4a8.webp",
+    "static/media/passgen.png": "/react-portfolio/static/media/passgen.b9f0ab53e2e76134ac13.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.1a3ab6fb.css.map": "/react-portfolio/static/css/main.1a3ab6fb.css.map",
+    "main.b19dff9c.js.map": "/react-portfolio/static/js/main.b19dff9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a3ab6fb.css",
+    "static/js/main.b19dff9c.js"
+  ]
+}
