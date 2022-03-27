@@ -1,6 +1,6 @@
 .projects {
     margin-top: 100px;
-    height: 100vh;
+    min-height: 100vh;
 }
 .projects__container {
     width: 100%;

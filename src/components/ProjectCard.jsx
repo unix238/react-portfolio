@@ -15,9 +15,9 @@ export const ProjectCard = ({img, title, desc, link, git}) => {
         </div>
       </div>
       <div className="projects__card__link">
-        <a href={link} target="_blank" className="lear__more">
+        {link ? <a href={link} target="_blank" className="lear__more">
           Live Demo
-        </a>
+        </a> : null}
         <a href={git} target="_blank" className="github">GitHub</a>
       </div>
     </div>

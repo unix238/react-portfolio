@@ -12,6 +12,7 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message, subject);
+    alert("function currently unnavailable, please contact me on my telegram @unix123");
   };
 
   const handleName = (e) => {

@@ -3,6 +3,7 @@ import "../style/projects.css";
 import passgen from "../img/passgen.png";
 import todo from "../img/todo-app.webp";
 import typeT from "../img/type.png";
+import note from "../img/note.png";
 import { ProjectCard } from "../components/ProjectCard";
 import { CardList } from "../components/CardList";
 import { Footer } from "../components/Footer";
@@ -33,6 +34,14 @@ export const Projects = () => {
       link: "https://unix238.github.io/react-type-trainer/",
       git: "https://github.com/unix238/react-type-trainer",
     },
+    {
+      img: note,
+      title: "Notes",
+      desc: "Simple application where you can create notes and save them to the mongodb database (react/node/express)",
+      type: "fullstack",
+      git: "https://github.com/unix238/notes",
+    },
+
   ]);
   const [filterdProjects, setFilteredProjects] = useState(projects);
   const [active, setActive] = useState("all");
