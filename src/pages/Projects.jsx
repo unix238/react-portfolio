@@ -4,6 +4,7 @@ import passgen from "../img/passgen.png";
 import todo from "../img/todo-app.webp";
 import typeT from "../img/type.png";
 import note from "../img/note.png";
+import calc from "../img/calc.jpeg";
 import { ProjectCard } from "../components/ProjectCard";
 import { CardList } from "../components/CardList";
 import { Footer } from "../components/Footer";
@@ -41,7 +42,13 @@ export const Projects = () => {
       type: "fullstack",
       git: "https://github.com/unix238/notes",
     },
-
+    {
+      img: calc,
+      title: "Calculator",
+      desc: "Calculator application that can do basic math operations (react-native)",
+      type: "mobile",
+      git: "https://github.com/unix238/react-native-calculator",
+    },
   ]);
   const [filterdProjects, setFilteredProjects] = useState(projects);
   const [active, setActive] = useState("all");
@@ -106,6 +113,18 @@ export const Projects = () => {
                 }}
               >
                 <p>Fullstack</p>
+              </div>
+              <div
+                className={
+                  active === "mobile"
+                    ? "filter__active projects__filter__item"
+                    : "projects__filter__item"
+                }
+                onClick={() => {
+                  filterHandler("mobile");
+                }}
+              >
+                <p>Mobile</p>
               </div>
             </div>
             <div className="projects__filter__count">
