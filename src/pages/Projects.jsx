@@ -41,6 +41,7 @@ export const Projects = () => {
       title: 'Notes',
       desc: 'Simple application where you can create notes and save them to the mongodb database (react/node/express)',
       type: 'fullstack',
+      link: 'https://notes-react-hazel.vercel.app/',
       git: 'https://github.com/unix238/notes',
     },
     {
